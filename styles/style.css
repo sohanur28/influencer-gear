@@ -55,3 +55,24 @@ main{
 .more-item i{
     justify-content: right;
 }
+
+.featured{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+}
+
+/* footer */
+footer{
+    background-color: lightblue;
+}
+.footer{
+    display: grid;
+    justify-content: center;
+}
+.icon{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
